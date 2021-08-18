@@ -1,5 +1,6 @@
-CREATE TABLE USR(
-	id INT PRIMARY KEY NOT NULL,
-	name TEXT NOT NULL,
-	age INT NOT NULL,
+create table usr (
+	id int primary key not null,
+	name text not null,
+	age int,
+	phone int not null
 );
